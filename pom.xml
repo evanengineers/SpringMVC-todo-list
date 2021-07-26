@@ -72,6 +72,8 @@
                     <release>${java.version}</release>
                 </configuration>
             </plugin>
+
+            <!-- War files contain the resources necessary for building web apps.  The Maven WAR plugin in collects all artifact dependencies, classes and resources of the web app and pkg's them into a web app archive-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -80,6 +82,8 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
+
+<!--Used to add the embedded tomcat -->
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven3-plugin</artifactId>
@@ -91,6 +95,7 @@
                     </container>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>

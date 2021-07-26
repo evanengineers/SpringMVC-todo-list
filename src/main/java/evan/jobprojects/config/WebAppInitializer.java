@@ -21,7 +21,7 @@ public class WebAppInitializer implements WebApplicationInitializer {
 
         // create the spring application context
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-        context.register(WebConfig.class);
+        context.register(WebConfig.class);//this registers the webConfig class as the config class. hence you have the @configuration annotation in that class.
 
         // create dispatcher servlet
         DispatcherServlet dispatcherServlet = new DispatcherServlet(context);
