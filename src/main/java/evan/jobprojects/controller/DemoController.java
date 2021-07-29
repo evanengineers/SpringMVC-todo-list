@@ -40,6 +40,7 @@ public class DemoController {
 
     // http://localhost:8080/todo-list/welcome
     // http://localhost:8080/todo-list/welcome?user=Evan
+    // http://localhost:8080/todo-list/welcome?user=Evan&age='age param'
     //Here we are going to use the /welcome view we created in the welcome.jsp. NO @Responsebody needed because of that.
     @GetMapping("welcome")
     public String welcome(@RequestParam String user, @RequestParam int age, Model model) {

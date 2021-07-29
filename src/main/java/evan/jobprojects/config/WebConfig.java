@@ -21,7 +21,7 @@ public class WebConfig {
     // == bean methods ==
     @Bean
     public ViewResolver viewResolver() {
-        //here we will create and internal resource view rsolver to resolve the views based on the prefix and suffix we have set
+        //here we will create an internal resource view resolver to resolve the views based on the prefix and suffix we have set
         UrlBasedViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setPrefix(RESOLVER_PREFIX);
         viewResolver.setSuffix(RESOLVER_SUFFIX);
