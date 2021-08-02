@@ -3,9 +3,9 @@
 <head>
     <title>Todo Items</title>
 </head>
-<body>
-    <div align="center">
-        <table border="1" cellpadding="5">
+    <body>
+        <div align="center">
+         <table border="1" cellpadding="5">
 
             <caption><h2>Todo Items</h2></caption>
 
@@ -20,7 +20,6 @@
                     <td><c:out value="${item.deadline}"/></td>
                 </tr>
             </c:forEach>
-
-    </div>
-</body>
+        </div>
+    </body>
 </html>

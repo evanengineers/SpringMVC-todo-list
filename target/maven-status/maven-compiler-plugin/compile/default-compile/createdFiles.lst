@@ -1,10 +1,12 @@
-evan\jobprojects\service\DemoService.class
 evan\jobprojects\config\WebConfig.class
+evan\jobprojects\util\Mappings.class
+evan\jobprojects\service\ToDoItemServiceImpl.class
+evan\jobprojects\util\ViewNames.class
+evan\jobprojects\service\DemoService.class
 evan\jobprojects\model\TodoItem.class
 evan\jobprojects\service\DemoServiceImpl.class
 evan\jobprojects\controller\DemoController.class
-evan\jobprojects\util\Mappings.class
-evan\jobprojects\util\ViewNames.class
+evan\jobprojects\service\TodoItemService.class
 evan\jobprojects\controller\TodoItemController.class
 evan\jobprojects\config\WebAppInitializer.class
 evan\jobprojects\model\TodoData.class
