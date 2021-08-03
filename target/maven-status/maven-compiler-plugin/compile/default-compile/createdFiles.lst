@@ -3,6 +3,7 @@ evan\jobprojects\util\Mappings.class
 evan\jobprojects\service\ToDoItemServiceImpl.class
 evan\jobprojects\util\ViewNames.class
 evan\jobprojects\service\DemoService.class
+evan\jobprojects\util\AttributeNames.class
 evan\jobprojects\model\TodoItem.class
 evan\jobprojects\service\DemoServiceImpl.class
 evan\jobprojects\controller\DemoController.class
